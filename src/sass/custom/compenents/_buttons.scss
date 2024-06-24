@@ -1,0 +1,12 @@
+
+.btn {
+    --bs-btn-color: $white;
+    --bs-btn-hover-bg:  #D5DCEE;
+    --bs-btn-focus-shadow-rgb: #8E3921;
+    --bs-btn-hover-color:#8E3921;
+
+    &:hover {
+        color: var(--bs-btn-hover-color) !important;
+    }
+
+}

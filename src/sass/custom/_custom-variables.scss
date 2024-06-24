@@ -1,0 +1,72 @@
+
+$white:    #fff ;
+
+
+$primary : #728BAD;
+$secondary : #1E0C06; 
+$light : #F5F5F5;
+$danger : #FFDBBB;
+
+// this is our main override file
+
+
+$enable-negative-margins:     true ;
+$enable-gradients:            true ;
+
+
+// navbar 
+
+$navbar-light-color:                $light;
+$navbar-light-hover-color:          $primary;
+$navbar-light-active-color:         $primary;
+$nav-link-font-size:                1.5rem;
+
+
+// => navbar toggler 
+$navbar-light-toggler-icon-bg:  url("data:image/svg+xml,%3Csvg width='23' height='15' viewBox='0 0 23 15' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cline x1='1.5' y1='7.5' x2='21.5' y2='7.5' stroke='#{$light}' stroke-width='3' stroke-linecap='round'/%3E%3Cline x1='13.5' y1='13.5' x2='21.5' y2='13.5' stroke='#{$light}' stroke-width='3' stroke-linecap='round'/%3E%3Cline x1='1.5' y1='1.5' x2='9.5' y2='1.5' stroke='#{$light}' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E%0A");;
+
+
+$navbar-light-hover-color:          $primary;
+$navbar-light-active-color:         $primary;
+
+
+// border-raduis 
+
+
+$border-radius-2xl:          5rem;
+
+
+// heading change 
+
+$h1-font-size:                5.625rem ;
+$h2-font-size:                1.875rem;
+$headings-font-family:    'Cinzel', serif;
+
+
+
+// buttons 
+
+$btn-padding-y:   .75rem;         
+$btn-padding-x:   2.6rem;
+$btn-font-size: 1.2rem;
+
+$btn-font-weight: 600;
+
+
+
+//forms 
+
+$input-btn-padding-y:         .75rem;
+$input-btn-padding-x:         1.5rem;
+$input-line-height:   2.1;
+$input-font-size:         1.25rem;
+
+$input-padding-y:         .8rem;             
+$input-padding-x:      2.2rem;   
+
+$input-bg:              transparent;
+$input-color:           $light;
+
+
+
+

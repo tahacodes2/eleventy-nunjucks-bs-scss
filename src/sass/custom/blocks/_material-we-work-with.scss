@@ -1,0 +1,30 @@
+
+#material-we-work-with {
+
+    h1 {
+        width: minmax(100%, 15ch);
+    }
+   
+
+
+
+
+    @include media-breakpoint-down(md) {
+        .scroll {
+            overflow-x: scroll;
+            scroll-snap-type: mandatory x;
+            gap : 2rem;
+
+            picture  {
+                width:7rem;
+                img {
+                    width: 100%;
+                }
+            }
+
+         li.display-6 {
+            font-size: 1.3rem;;
+         }
+        }
+    }
+}

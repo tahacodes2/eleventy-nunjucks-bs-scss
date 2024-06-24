@@ -1,0 +1,45 @@
+// spacers override
+
+$spacers: (
+    0: 0,
+    1: $spacer * .25,
+    2: $spacer * .5,
+    3: $spacer,
+    4: $spacer * 1.5,
+    5: $spacer * 3,
+    6: $spacer * 3.5,
+    7: $spacer * 4,
+    8 :$spacer * 4.5,
+    9: $spacer * 5,
+    10: $spacer * 5.5,
+    11: $spacer * 6,
+    12: $spacer * 6.5,
+    13: $spacer * 7 ,
+    14: $spacer * 8,
+    15 : $spacer * 8.5,
+    16 : $spacer * 9,
+    17 : $spacer * 9.5,
+    18 : $spacer * 10,
+    19 :$spacer * 11,
+    20: $spacer * 12
+    );
+
+
+
+
+    // border width map
+
+    $border-widths: (
+  1: 1px,
+  2: 2px,
+  3: 3px,
+  4: 4px,
+  5: 5px,
+  6 :6px,
+  7: 7px,
+  8: 8px,
+  9: 9px,
+  10:10px,
+  11:11px,
+  12:12px
+);

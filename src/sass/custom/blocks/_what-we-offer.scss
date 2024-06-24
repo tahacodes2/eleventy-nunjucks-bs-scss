@@ -1,0 +1,108 @@
+#what-we-offer {
+    &::after {
+        content: '';
+        position: absolute;
+        top: -87px;
+        right: 0;
+        width: 48%;
+        height: 150%;
+        background-image: url(./../../../images/woods.png);
+        z-index: -2;
+    }
+
+    .container {
+
+        &::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 90%;
+            height: 120%;
+            background-color: #1E0C06;
+            border-radius: 5rem 0 0 5rem;
+            z-index: -1;
+        }
+    }
+
+    .a-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr 50px 1fr 50px 1fr;
+    }
+
+    img {
+        width: 15rem;
+    }
+
+    img:first-of-type {
+        grid-column: 2;
+        grid-row: 4;
+    }
+
+    img:nth-of-type(2) {
+        grid-row: 3/5;
+        justify-self: center;
+    }
+
+    img:last-of-type {
+        grid-column: 2;
+    }
+
+
+    @include media-breakpoint-down(lg) {
+
+        &::after {
+            left: 0;
+            width: 75%;
+            height: 117%;
+        }
+
+
+        .container {
+
+            &::after {
+
+                height: 90%;
+                width: 90%;
+
+            }
+
+            .a-grid {
+                position: absolute;
+                top: 25%;
+                width: 100%;
+                right: 0;
+                writing-mode: vertical-lr;
+            }
+
+            img {
+                width: 7rem;
+            }
+
+            img:first-of-type {
+                grid-column: 2;
+                grid-row: 5;
+                align-self: flex-start;
+                justify-self: end;
+            }
+
+            img:nth-of-type(2) {
+                grid-row: 5;
+                justify-self: center;
+            }
+
+            img:last-of-type {
+                grid-row: span 2;
+                justify-self: center;
+                align-self: end;
+                margin-top: 3rem;
+                ;
+            }
+
+        }
+
+
+
+    }
+}

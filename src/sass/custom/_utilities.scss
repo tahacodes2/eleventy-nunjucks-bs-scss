@@ -1,0 +1,19 @@
+
+
+//fixed width classes 
+
+@for $i from 1 through 50 {
+
+    @if ($i % 5 == 0)
+    {
+        .afw-#{$i} {
+            width : $i * 1rem !important;
+        }
+        .afh-#{$i} {
+            height: $i * 1rem !important;
+        }
+    }
+    
+}
+
+

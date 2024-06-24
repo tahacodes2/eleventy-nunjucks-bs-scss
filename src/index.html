@@ -1,0 +1,35 @@
+---
+permalink : /
+---
+
+
+{% set current = "home" %}
+
+
+{% extends "root/base.html" %}
+
+
+
+{% block main %}
+
+<!-- main start -->
+
+    {% include "blocks/what-we-offer.html" %}
+
+    {% include "blocks/material-we-work-with.html" %}
+
+
+    {% include "blocks/product-photos.html" %}
+
+
+    {% include "blocks/stages-of-working-with-us.html" %}
+
+
+    {% include "blocks/breifly-about-us.html" %}
+
+
+   
+
+<!-- main end -->
+  
+{% endblock main %}

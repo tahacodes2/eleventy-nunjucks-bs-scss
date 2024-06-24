@@ -1,0 +1,89 @@
+
+
+// this file has only import of other files 
+
+// import our variables overrride 
+// imoort boostrap full detailed files  code
+// imoort our custom  code
+
+
+
+
+// Custom.scss
+// Option B: Include parts of Bootstrap
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "./../../node_modules/bootstrap/scss/functions";
+
+// 2. Include any default variable overrides here
+
+//TODO => import variables over-rides --done!
+
+@import "./custom/custom-variables";
+
+
+// 3. Include remainder of required Bootstrap stylesheets
+@import "./../../node_modules/bootstrap/scss/variables";
+
+// 4. Include any default map overrides here
+
+
+//TODO => import maps over-rides
+
+
+@import "./custom/custom-maps";
+
+// 5. Include remainder of required parts
+@import "./../../node_modules/bootstrap/scss/maps";
+@import "./../../node_modules/bootstrap/scss/mixins";
+@import "./../../node_modules/bootstrap/scss/root";
+
+// 6. Optionally include any other parts as needed
+@import "./../../node_modules/bootstrap/scss/utilities";
+@import "./../../node_modules/bootstrap/scss/reboot";
+@import "./../../node_modules/bootstrap/scss/type";
+@import "./../../node_modules/bootstrap/scss/images";
+@import "./../../node_modules/bootstrap/scss/containers";
+@import "./../../node_modules/bootstrap/scss/grid";
+@import "./../../node_modules/bootstrap/scss/helpers";
+
+// 7. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
+@import "./../../node_modules/bootstrap/scss/utilities/api";
+
+
+// 8- add custom :not(api-utilitiess) 
+
+
+// @for $i from 5 through 33 {
+//     .delay-#{$i} {
+//         transition-delay: $i* .2s;
+//     }
+// }
+
+// 9. Add additional custom code here
+
+// TODO => custom css new classes new compenents  or any hard coded overrride 
+
+
+
+
+
+
+// our variables over ride
+
+
+
+// imoorting bootstrap 
+
+@import './../../node_modules/bootstrap/scss/bootstrap.scss';
+
+
+
+@import "./custom/compenents/compenents";
+
+@import "./custom/utilities";
+
+@import "./custom/blocks/what-we-offer";
+@import "./custom/blocks/material-we-work-with.scss";
+@import "./custom/blocks/about-us.scss";
+@import "./custom/blocks/footer"

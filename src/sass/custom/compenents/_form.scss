@@ -1,0 +1,33 @@
+.form-control {
+
+    border-color: $primary;
+    border-radius: 3rem;
+
+    &:is(:hover, :focus, :active) {
+        background-color: $primary ;
+        color: $secondary;
+        border-color: #6C200B;
+        box-shadow: 0 0 0 0.25rem #6C200B;
+    }
+
+
+
+}
+
+textarea.form-control {
+    border-radius: 1rem;
+    ;
+}
+
+.form-control::placeholder {
+    font-size: 1.85rem;
+    color: $gray-400;
+    font-weight: 600;
+}
+
+.wood-img {
+    top: 30%;
+    right: -5%;
+    rotate: -27deg;
+    z-index:5;
+}
